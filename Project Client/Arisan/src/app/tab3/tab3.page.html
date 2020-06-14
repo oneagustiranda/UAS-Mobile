@@ -1,0 +1,31 @@
+<ion-header [translucent]="true" color="primary">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="shuffle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <img src="../../assets/icon/logo.png" class="center">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-item style="margin-top: 40%;">
+    <ion-label>Select Group</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="brown">Group 1</ion-select-option>
+      <ion-select-option value="blonde">Group 2</ion-select-option>
+      <ion-select-option value="black">Group 3</ion-select-option>
+      <ion-select-option value="red">Group 4</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+<div style="text-align: center;">
+  <ion-button shape="round"  class="shake">Shake </ion-button>
+</div>
+  
+</ion-content>
